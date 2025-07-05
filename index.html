@@ -21,23 +21,26 @@
         extend: {
           colors: {
             clifford: '#da373d',
+          },
+              fontFamily: {
+          manrope:["Manrope",'sans-serif'],
           }
         }
       }
     }
   </script>
 
-
 </head>
-<body>
+<body class="font-manrope">
     <main class=" max-w-screen-xl mx-auto px-16 lg:px-28">
         <header class=" lg:flex mb-20 pt-10">
 <!-- text-content  -->
-<div class="">
+<div >
 <h1 class="font-extrabold	 text-6xl lg:text-7xl text-[#1C1C1C]">It's good <br>
 tea time at The <br>  Tea House</h1>
 <p class="text-lg  lg:w-3/4	font-medium	 text-[#777777] mt-8 ">Tea and Botanical Solutions Supplier Give Optimum  Satisfaction To Your Taste Buds.</p>
-<button class="text-[#FFFFFF]  rounded-md mt-8 py-4  px-5 bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Explore More  <i class="fa-solid fa-arrow-up rotate-45  "></i>
+<button class="text-[#FFFFFF]  rounded-md mt-8 py-4 
+ px-5 bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Explore More  <i class="fa-solid fa-arrow-up rotate-45  "></i>
     
 </button>
 </div>
@@ -60,7 +63,7 @@ tea time at The <br>  Tea House</h1>
 
         </header>
 <!-- our feathers product   section-->
-<section class="mt-12 mb-12">
+<section class="mt-12 mb-24">
   <!-- text part  -->
   <div class=" text-center	">
     <h3 class="font-extrabold  text-2xl md:text-3xl lg:text-5xl text-[#1C1C1C] mb-5 	">Our Featured Products</h3>
@@ -68,7 +71,7 @@ tea time at The <br>  Tea House</h1>
   </div>
   
    <!-- feathers cards  -->
-<div class="grid   grid-cols-1 lg:grid-cols-4 gap-6 mt-5 ">
+<div class="grid   grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-5 ">
 <div class="  rounded-lg shadow-md bg-gray-50 overflow-hidden">
   <img class=" mx-auto mt-5" src="./images/tea-1.png" alt="" srcset="">
  <div class="text-center m-4">
@@ -104,10 +107,199 @@ tea time at The <br>  Tea House</h1>
 </div>
 
 </section>
+<!-- great tea section  -->
+<section class=" mb-24">
+  <div class="grid  grid-cols-1 lg:grid-cols-2">
+
+  <!-- image part  -->
+     <div class=" grid  lg:grid-cols-2 lg:grid-rows-3	 gap-4 lg:w-5/6 ">
+<div class=" h-38 rounded-xl bg-gradient-to-r from-red-100 to-red-50 "></div>
+
+<div class="bg-orange-50  rounded-xl row-span-2 px-7 pt-10 ">
+  <img class="mx-auto " src="./images/fresh-1.png" alt="" srcset="">
+</div>
+<div class="bg-stone-100  rounded-xl row-span-2 px-7 pt-10 ">
+  <img class="mx-auto" src="./images/fresh-2.png" alt="" srcset="">
+</div>
+<div class=" h-38 rounded-xl bg-gradient-to-r from-stone-100 to-stone-50 "></div>
+
+     </div>
+
+     <!-- text part  -->
+      <div>
+        <h1 class="font-extrabold text-5xl text-[#1C1C1C] mb-5">Great Tea, Freshly Presented</h1>
+        <p class="text-[#777777] font-medium text-base">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+<br>
+<h1 class="font-extrabold text-2xl mb-3">Unique Taste</h1>
+<p class="text-[#777777] font-medium text-base">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+<br>
+<h1 class="font-extrabold text-2xl mb-3">Premium Quality</h1>
+<p class="text-[#777777] font-medium text-base">Premium Quality that makes tea more elegant and more durable when you use it.</p>
 
 
+      </div>
+       </div>
+</section>
+
+<section class="mb-24">
+  <div class="grid grid-cols-1 lg:grid-cols-2  bg-gradient-to-r from-orange-500 to-red-500 text-white pr-5 pt-32 rounded-xl">
+<!-- text part -->
+<div class="flex justify-center items-center">
+  <div class="w-5/6">
+<h1 class="font-extrabold text-5xl  mb-5">Meet Our Super Clients</h1>
+<p class="text-base font-medium mb-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+<div>
+  <button class="rounded-xl bg-white text-orange-700 px-7 py-4 mb-36">Show All</button>
+</div>
+</div>
+</div>
+  <!-- image part  -->
+
+   <div class="relative  pb-24 ">
+    <!-- middle card  -->
+<div class="  absolute  z-10  top-32 h-56 flex items-center pl-10  lg:w-96 md-w-3/4 rounded-lg bg-white text-black  ">
+  
+<div class=" absolute bg-white rounded-full -top-5 -left-5  ">
+<img class="p-1" src="./images/client.png" alt="" srcset="">
+</div>
+<div class="" >
+  <p class="font-normal text-base text-[#777777]  ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+  <h2 class="text-[#1C1C1C] font-bold text-base">Ilham Yuda</h2>
+  <small class="font-medium text-base text-[#777777] ">Businessman</small>
+</div>
+
+  </div>
+    <!-- top card  -->
+<div class="     left-4  lg:left-8 md:left-2 h-56 flex items-center pl-10 relative lg:w-96 md-w-3/4 rounded-lg bg-white text-black opacity-40 ">
+  
+<div class=" absolute bg-white rounded-full -top-5 -left-5  ">
+<img class="p-1" src="./images/client.png" alt="" srcset="">
+</div>
+<div class="" >
+  <p class="font-normal text-base text-[#777777]  ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+  <h2 class="text-[#1C1C1C] font-bold text-base">Ilham Yuda</h2>
+  <small class="font-medium text-base text-[#777777] ">Businessman</small>
+</div>
+
+
+
+
+  </div>
+<!-- bottom card  -->
+
+<div class="   left-4 lg:left-8 md:left-2 h-56	 top-10 flex items-center pl-11 relative lg:w-96 md-w-3/4 rounded-lg bg-white text-black opacity-40">
+  
+<div class=" absolute bg-white rounded-full -top-5 -left-5  ">
+<img class="p-1" src="./images/client.png" alt="" srcset="">
+</div>
+<div class="" >
+  <p class="font-normal text-base text-[#777777]  ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+  <h2 class="text-[#1C1C1C] font-bold text-base">Ilham Yuda</h2>
+  <small class="font-medium text-base text-[#777777] ">Businessman</small>
+</div>
+
+  </div>
+
+  </div>
+</section>
     </main>
+<!-- footer section  -->
+     
+<footer class=" bg-orange-100  text-gray-800 py-24 px-20 lg:px-44 ">
+  <div class=" 	 w-4/5		mx-auto  ">
+  <!-- logo section  -->
+  <div class="  md:flex  lg:flex justify-between mb-12  ">
+    <!-- image part  -->
+<div class="mb-5">
+  <img class=" lg:w-2/4" src="./images/cup.png" alt="" srcset="">
+</div >
+<!-- text part  -->
+<div class=" lg:flex items-center  space-y-2  lg:gap-4 ">
+  <h4>Ready to get started?</h4>
+  <button class="text-[#FFFFFF]  rounded-md py-4 
+ px-6 bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Get Started</button>
+</div>
+  </div>
+  <!-- quick links footer section  -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+<!-- first footer  -->
+<div class=" space-y-4">
+<h3 class="font-semibold text-xl	text-[#1C1C1C]">Quick Links</h3>
+<ul class="space-y-3">
+  <li>
+    <a class="hover:text-orange-800" href="#"> Home</a>
+    </li>
+    <li>  
+      <a class="hover:text-orange-800" href="#"> About Us</a>
+</li>
+<li>
+    <a class="hover:text-orange-800" href="#"> Insurance</a>
 
-    
+</li>
+<li>
+    <a class="hover:text-orange-800" href="#"> Privacy Policy</a>
+
+</li>
+</ul>
+</div>
+ <!-- second footer  -->
+<div class=" space-y-4">
+<h3 class="font-semibold text-xl	text-[#1C1C1C]">Our Service</h3>
+<ul class="space-y-3">
+  <li>
+    <a class="hover:text-orange-800" href="#"> Life Insurance</a>
+    </li>
+    <li>  
+      <a class="hover:text-orange-800" href="#"> Car Insurance</a>
+</li>
+<li>
+    <a class="hover:text-orange-800" href="#"> Health Insurance</a>
+
+</li>
+<li>
+    <a class="hover:text-orange-800" href="#"> House Insurance</a>
+
+</li>
+</ul>
+</div>
+ <!-- third footer  -->
+<div class=" space-y-4">
+<h3 class="font-semibold text-xl	text-[#1C1C1C]">Help</h3>
+<ul class="space-y-3">
+  <li>
+    <a class="hover:text-orange-800" href="#"> FAQs</a>
+    </li>
+    <li>  
+      <a class="hover:text-orange-800" href="#">Contact Us</a>
+</li>
+
+</ul>
+</div>
+<!-- fourth footer  -->
+<div class=" ">
+  <h3 class="font-semibold text-xl	text-[#1C1C1C]">Subscribe to our newsletter</h3>
+<div class="mb-8 mt-6 ">
+  <input  placeholder="Email address" type="text" class="border-b-2 border-black
+   bg-transparent w-4/6  ">
+   <i class="fa-solid fa-chevron-right inline-flex bg-orange-600 w-8 h-8 rounded-full text-white justify-center items-center"></i>
+</div>
+
+<div class=" flex w-2/5  justify-between ">
+  <i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-square-instagram"></i>
+</div>
+  
+</div>
+
+</div>
+
+<!-- reserved section  -->
+<div class="text-[#494949] mt-10 flex justify-center items-center">
+  <p class="font-medium text-base ">© 2027 UIDesign.to - All rights reserved.</p>
+</div>
+
+  </div>
+</footer>
 </body>
 </html>
